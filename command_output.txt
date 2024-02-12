@@ -1,0 +1,52 @@
+Process started
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 6 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 6 cases that I would like to predict
+using pin_memory on device 0
+
+Predicting hippocampus_001:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with hippocampus_001
+
+Predicting hippocampus_003:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with hippocampus_003
+
+Predicting hippocampus_004:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with hippocampus_004
+
+Predicting hippocampus_006:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with hippocampus_006
+
+Predicting hippocampus_007:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+output is either too large for python process-process communication or all export workers are busy. Saving temporarily to file...
+sending off prediction to background worker for resampling and export
+done with hippocampus_007
+
+Predicting hippocampus_008:
+perform_everything_on_gpu: True
+Prediction done, transferring to CPU if needed
+output is either too large for python process-process communication or all export workers are busy. Saving temporarily to file...
+sending off prediction to background worker for resampling and export
+done with hippocampus_008
+
+result_csv_path: E:\nnUNet_GUI\nnUNet_results\nnunet3d\Dataset005_task043D\nnUNetTrainer__nnUNetPlans__3d_fullres\fold_1\test_result\test_result.csv
+DICE: 0.9455479397408529 ± 0.020023439189939107
+ASD: 0.28434677729664176 ± 0.06106130726426404
