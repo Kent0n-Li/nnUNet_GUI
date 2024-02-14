@@ -1,0 +1,13 @@
+{
+    "channel_names": {
+        "0": "channel0"
+    },
+    "labels": {
+        "background": 0,
+        "lab1": 1,
+        "lab2": 2
+    },
+    "numTraining": 6,
+    "file_ending": ".nii.gz",
+    "name": "Dataset002_demo3d"
+}
