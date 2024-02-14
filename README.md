@@ -43,6 +43,32 @@ cd Medical-Image-Segmentation-Benchmark
 pip install -r requirements.txt
 ```
 
+
+
+## Install from scratch without nnSAM 只安装nnUNet
+Install (安装步骤):
+
+```bash
+conda create -n nnu python=3.9
+conda activate nnu
+```
+
+Choose a suitable Pytorch with CUDA to install <br> 
+根据CUDA选择合适版本的Pytorch进行安装
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+```bash
+pip install nnunetv2
+
+git clone https://github.com/Kent0n-Li/nnUNet_GUI_tiny.git
+cd nnUNet_GUI_tiny
+pip install -r requirements.txt
+```
+
+
 ## 运行可视化软件
 ```bash
 python web.py
