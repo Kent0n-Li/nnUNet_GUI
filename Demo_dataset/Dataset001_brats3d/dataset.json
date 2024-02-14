@@ -1,0 +1,17 @@
+{
+    "channel_names": {
+        "0": "channel0",
+        "1": "channel1",
+        "2": "channel2",
+        "3": "channel3"
+    },
+    "labels": {
+        "background": 0,
+        "lab1": 1,
+        "lab2": 2,
+        "lab3": 3
+    },
+    "numTraining": 7,
+    "file_ending": ".nii.gz",
+    "name": "Dataset001_brats3d"
+}
