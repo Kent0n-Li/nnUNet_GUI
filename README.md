@@ -6,10 +6,19 @@
 
 # nnUNet with GUI <br> 可视化网页版本nnUNet
 
-
 The current code is designed for Windows, not for Linux. 
 
+## If you already have nnUNet installed, only install the GUI page （如果你已经安装nnUNet，只安装GUI页面）
 
+```bash
+git clone https://github.com/Kent0n-Li/nnUNet_GUI_tiny.git
+cd nnUNet_GUI_tiny
+pip install -r requirements.txt
+```
+
+
+
+## Install from scratch 从零开始安装
 Install (安装步骤):
 
 ```bash
@@ -34,7 +43,7 @@ cd Medical-Image-Segmentation-Benchmark
 pip install -r requirements.txt
 ```
 
-运行可视化软件
+## 运行可视化软件
 ```bash
 python web.py
 ```
