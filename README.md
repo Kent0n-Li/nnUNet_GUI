@@ -30,7 +30,7 @@ pip install git+https://github.com/ChaoningZhang/MobileSAM.git
 pip install timm
 pip install git+https://github.com/Kent0n-Li/nnSAM.git
 
-git clone https://github.com/Kent0n-Li/Medical-Image-Segmentation.git
+git clone https://github.com/Kent0n-Li/nnUNet_GUI.git
 cd Medical-Image-Segmentation-Benchmark
 pip install -r requirements.txt
 ```
