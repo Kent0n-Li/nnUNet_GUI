@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="70%" src="https://github.com/Kent0n-Li/Medical-Image-Segmentation-Benchmark/blob/main/img/medseglogo.png">
+  <img width="70%" src="https://raw.githubusercontent.com/Kent0n-Li/nnUNet_GUI/main/img/icon.png">
 </p>
 
 
